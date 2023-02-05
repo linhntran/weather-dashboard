@@ -1,0 +1,37 @@
+:root {
+    --white: #ffffff;
+    --blackolive: #3b413c;
+    --opal: #9db5b2;
+    --lightcyan: #daf0ee;
+    --bluegreen: #94d1be;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--blackolive);
+}
+
+body {
+    margin: 15px;
+}
+
+header {
+    background-color: var(--lightcyan);
+}
+
+.btn-info {
+    background-color: var(--opal);
+}
+
+.list-group {
+    padding: 5px;
+}
+
+.card-body {
+    background-color: var(--bluegreen);
+}
+
+h1 {
+    color: var(--blackolive);
+    font-weight: bolder;
+}
