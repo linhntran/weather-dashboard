@@ -133,7 +133,6 @@ function listArray() {
 function listHistory() {
     if (localStorage.getItem("cities")) {
         cityHistory = JSON.parse(localStorage.getItem("cities"));
-        var lastIndex = cityHistory.length - 1;
         listArray();
     }
 }
