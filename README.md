@@ -2,7 +2,7 @@
 
 ## Description
 
-This week's challenge allows us to utilize our Server-Side API skills using OpenWeather's 5 Day Weather Forecast API to create an application that lets the user to search for the current and future weather conditions for any city of their liking. 
+This week's challenge allows us to utilize our Server-Side API skills using OpenWeather's 5 Day Weather Forecast API to create an application that lets the user search for the current and future weather conditions for any city of their liking. 
 
 See below for the direct link to the live page:
 
