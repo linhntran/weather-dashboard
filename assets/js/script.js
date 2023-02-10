@@ -120,11 +120,15 @@ function searchHistory(searchValue) {
 // Lists array of search history 
 function listArray() {
     searchHistoryListEl.empty();
-    cityHistory.forEach(function (city) {
-        var searchHistoryItem = $('<li class="list-group-item city-btn">');
-        searchHistoryItem.attr("data-value", city);
-        searchHistoryItem.text(city);
-        searchHistoryListEl.prepend(searchHistoryItem);
+        cityHistory.forEach(function (city) {
+            var searchHistoryItem = $('<button class="list-group-item city-btn">');
+            searchHistoryItem.attr("data-value", city);
+            searchHistoryItem.text(city);
+            searchHistoryListEl.prepend(searchHistoryItem);
+
+            searchHistoryItem.on("click", function () {
+                currentRequest(city);
+            })
     });
     localStorage.setItem("cities", JSON.stringify(cityHistory));
 }
