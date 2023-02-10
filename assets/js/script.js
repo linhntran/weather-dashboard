@@ -127,7 +127,6 @@ function listArray() {
         searchHistoryListEl.prepend(searchHistoryItem);
     });
     localStorage.setItem("cities", JSON.stringify(cityHistory));
-    cityHistory = JSON.parse(localStorage.getItem("cities"));
 }
 
 // Shows history when page is refreshed
